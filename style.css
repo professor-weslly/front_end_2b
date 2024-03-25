@@ -7,6 +7,10 @@ body {
     background: #CCCCCC
 }
 
+h1 {
+    text-align: center
+}
+
 p {
     text-align: center;
 }
@@ -27,6 +31,7 @@ h1 {
 
 p {
     text-align: center;
+    font-size: 20px;
 }
 
 #missao {
