@@ -168,6 +168,13 @@ td, th {
 	clear: left;
 }
 
+.principal {
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+}
+
 .principal p {
 	margin: 0 0 1em;
 }
@@ -217,7 +224,10 @@ td, th {
 .mapa {
 	padding: 3em 0;
 }
-
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
@@ -230,21 +240,6 @@ td, th {
 
 
 /* Proxima aula
-
-*inserir na linha 171 
-.principal {
-	padding: 3em 0;
-	background: #FEFEFE;
-	width: 940px;
-	margin: 0 auto;
-}
-
-
-* inserir entre .mapa e .mapa p
-.mapa-conteudo {
-	width: 940px;
-	margin: 0 auto;
-}
 
 Mudar a ordem de todas as classes mapa deixando após a classe utensilios
 
