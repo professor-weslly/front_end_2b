@@ -193,8 +193,23 @@ td, th {
 	margin: 0 20px 20px 0;
 }
 
-.imagem-beneficios {
-	width: 60%;
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
 }
 
 .conteudo-beneficios {
@@ -216,21 +231,12 @@ td, th {
 	font-weight: bold;
 }
 
-.beneficios {
-	padding: 3em 0;
-	background: #888888;
+.itens:before {
+    content: "★";
 }
 
-.mapa {
-	padding: 3em 0;
-}
-.mapa-conteudo {
-	width: 940px;
-	margin: 0 auto;
-}
-.mapa p {
-	margin: 0 0 2em;
-	text-align: center;
+.imagem-beneficios {
+	width: 60%;
 }
 
 .video {
@@ -239,10 +245,6 @@ td, th {
 }
 
 
-/* Proxima aula
-
-Mudar a ordem de todas as classes mapa deixando após a classe utensilios
-
-inverter a posição das classes benefícios e imagem-beneficios
-
+/* 
+adicionei o texto unicode linha 234
 */
