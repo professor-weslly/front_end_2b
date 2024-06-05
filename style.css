@@ -102,7 +102,7 @@ main {
 }
 
 form {
-	margin: 40px 0;
+	margin: 40px 40px;
 }
 
 form label, form legend {
@@ -141,7 +141,7 @@ form label, form legend {
 }
 
 table {
-	margin: 20px 0 40px;
+	margin: 20px 40px 40px;
 }
 
 thead {
@@ -244,4 +244,21 @@ td, th {
 	margin: 2em auto;
 }
 
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
 
